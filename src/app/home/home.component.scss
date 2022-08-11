@@ -1,59 +1,63 @@
 .info {
-    padding-top: 18%;
-    padding-left: 20%;
-    font-family: 'Poppins', sans-serif;
-    height: 100%; 
-    overflow: hidden
+  padding-top: 18%;
+  padding-left: 20%;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 500px) {
-    .info {
-        width: 90%;
-        padding-top: 50%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+  .info {
+    width: 90%;
+    padding-top: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .info {
-        width: 90%;
-        padding-top: 50%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+  .info {
+    width: 90%;
+    padding-top: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 .name {
-    color: white;
-    font-size: 50px;
+  color: white;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 500px) {
-    .name {
-        font-size: 40px;
-    }
+  .name {
+    font-size: 40px;
+  }
 }
 
 .bio {
-    font-size: 20px;
-    color: grey;
-    word-wrap: break-word;
+  font-size: 25px;
+  color: grey;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+.bio-content {
+  width: 60rem;
 }
 
 .connect {
-    margin-top: 20px;
-    display: block;
-    word-wrap: break-word;
+  margin-top: 20px;
+  display: block;
+  word-wrap: break-word;
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    margin-right: 40px; 
-    white-space: nowrap;
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+  white-space: nowrap;
 }
 
 fa-icon {
-    font-size: 20px;
+  font-size: 20px;
 }
